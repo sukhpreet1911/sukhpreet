@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sukhpreet Singh - Portfolio</title>
+
+    <style>
+    
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        
+        .container {
+            max-width: 800px;
+            background-color: #ffffff;
+            margin: 30px auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+
+        img {
+            border-radius: 50%;
+            border: 4px solid #0f110f;
+            
+        }
+
+        h1 {
+            color: #354236;
+        }
+
+        h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            display: inline-block;
+            
+            margin-top: 30px;
+        }
+
+        p {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #e8f5e9;
+            margin: 8px auto;
+            padding: 10px;
+            border-radius: 8px;
+            width: 60%;
+            color: #333;
+        }
+
+        /* Contact section styling */
+        .contact li {
+            background: #f1f8e9;
+        }
+
+        /* Make links look nice */
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="IMG_4243.JPG" width="20%" height="25%" alt="Profile Photo">
+
+        <h1>Sukhpreet Singh</h1>
+        <p><strong>Branch:</strong> C.S.E <br>
+        <strong>Roll No.:</strong> 1279</p>
+
+        <h2>About Me</h2>
+        <p>
+            Hello! I am <strong>Sukhpreet Singh</strong>, a 2nd-year Computer Science Engineering student at GNDPC. 
+            I am learning many programming languages and improving my web development skills.
+        </p>
+
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML and CSS</li>
+            <li>Problem Solving</li>
+            <li>Database</li>
+        </ul>
+
+        <h2>Projects</h2>
+        <ul>
+            <li>Personal Portfolio Website</li>
+            <li>Mobile-friendly Web Design</li>
+        </ul>  
+
+        <h2>Contact</h2> 
+        <ul class="contact">
+            <li>Phone No.: 78091-00017</li>
+            <li>Email: <a href="mailto:sukhpreet@gmail.com">sukhpreet@gmail.com</a></li>
+        </ul>
+    </div>
+</body>
+</html>
